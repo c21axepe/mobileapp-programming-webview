@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
     private WebView myWebView;
 
     public void showExternalWebPage(){
-        // TODO: Add your code for showing external web page here
+        myWebView.loadUrl("https://his.se");
     }
 
     public void showInternalWebPage(){
-        // TODO: Add your code for showing internal web page here
+        myWebView.loadUrl("file:///android_asset/about.html");
     }
 
     @Override
